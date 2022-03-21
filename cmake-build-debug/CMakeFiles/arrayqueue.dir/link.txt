@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\arrayqueue.dir/objects.a
+D:\programe\mingw\bin\ar.exe cr CMakeFiles\arrayqueue.dir/objects.a @CMakeFiles\arrayqueue.dir\objects1.rsp
+D:\programe\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\arrayqueue.dir/objects.a -Wl,--no-whole-archive -o arrayqueue.exe -Wl,--out-implib,libarrayqueue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\arrayqueue.dir\linklibs.rsp

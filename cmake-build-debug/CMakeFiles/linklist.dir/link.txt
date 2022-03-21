@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\linklist.dir/objects.a
+D:\programe\mingw\bin\ar.exe cr CMakeFiles\linklist.dir/objects.a @CMakeFiles\linklist.dir\objects1.rsp
+D:\programe\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\linklist.dir/objects.a -Wl,--no-whole-archive -o linklist.exe -Wl,--out-implib,liblinklist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\linklist.dir\linklibs.rsp

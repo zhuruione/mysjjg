@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\mpbx.dir/objects.a
+D:\programe\mingw\bin\ar.exe cr CMakeFiles\mpbx.dir/objects.a @CMakeFiles\mpbx.dir\objects1.rsp
+D:\programe\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\mpbx.dir/objects.a -Wl,--no-whole-archive -o mpbx.exe -Wl,--out-implib,libmpbx.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\mpbx.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\linkqueue.dir/objects.a
+D:\programe\mingw\bin\ar.exe cr CMakeFiles\linkqueue.dir/objects.a @CMakeFiles\linkqueue.dir\objects1.rsp
+D:\programe\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\linkqueue.dir/objects.a -Wl,--no-whole-archive -o linkqueue.exe -Wl,--out-implib,liblinkqueue.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\linkqueue.dir\linklibs.rsp

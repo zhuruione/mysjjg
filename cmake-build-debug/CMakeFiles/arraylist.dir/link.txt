@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\arraylist.dir/objects.a
+D:\programe\mingw\bin\ar.exe cr CMakeFiles\arraylist.dir/objects.a @CMakeFiles\arraylist.dir\objects1.rsp
+D:\programe\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\arraylist.dir/objects.a -Wl,--no-whole-archive -o arraylist.exe -Wl,--out-implib,libarraylist.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\arraylist.dir\linklibs.rsp

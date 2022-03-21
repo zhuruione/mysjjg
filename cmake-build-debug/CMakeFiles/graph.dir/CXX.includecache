@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/sjjg/graph/Graph.cpp
+stdio.h
+-
+malloc.h
+-
+stdlib.h
+-
+string.h
+-
+iostream
+E:/sjjg/graph/iostream
+

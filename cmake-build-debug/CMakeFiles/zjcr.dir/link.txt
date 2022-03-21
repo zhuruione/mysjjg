@@ -1,0 +1,3 @@
+"D:\Clion\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\zjcr.dir/objects.a
+D:\programe\mingw\bin\ar.exe cr CMakeFiles\zjcr.dir/objects.a @CMakeFiles\zjcr.dir\objects1.rsp
+D:\programe\mingw\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\zjcr.dir/objects.a -Wl,--no-whole-archive -o zjcr.exe -Wl,--out-implib,libzjcr.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\zjcr.dir\linklibs.rsp
